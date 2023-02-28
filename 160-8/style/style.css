@@ -1,0 +1,277 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header{
+    padding: 15px;
+    background-color: black;
+}
+header ul{
+    width: 300px;
+    margin-left: 280px;
+}
+header ul a::before{
+    content: "";
+    width: 0;
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    transition: 2s;
+}
+header ul a:hover:before{
+    width: 100%;
+}
+header a{
+    color: white;
+    position: relative;
+    padding: 3px 1px;
+}
+main{
+    padding-bottom: 80px;
+}
+.img1 img{
+    width: 70px;
+    height: 70px;
+    margin-left: -500px;
+}
+h2{
+    font-size: 22px;
+    margin-top: 80px;
+    margin-left: 80px;
+}
+
+.box{
+    width: 280px;
+    height: 250px;
+    border: 1px solid black;
+    margin-top: 80px;
+    margin-left: 72px;
+    box-shadow: 0 0 10px #777776;
+    text-align: center;
+}
+
+.tracker{
+    margin-left: -160px;
+    margin-top: 20px;
+    font-size: 18px;
+}
+.artist{
+    margin-top: 11px;
+    margin-left: -111px;
+    font-size: 14px;
+}
+.goon{
+    margin-top: 45px;
+    margin-left: -190px;
+}
+.goon a{
+    font-size: 12px;
+    color: black;
+    position: relative;
+    padding: 3px 1px;
+}
+.goon a::before{
+    content: "";
+    width: 0;
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    transition: 2s;
+}
+.goon a:hover:before{
+    width: 100%;
+}
+.pfp{
+    margin-top: 20px;
+    text-align: center;
+}
+.pfp img{
+    width: 65px;
+    height: 65px;
+    object-fit: contain;
+}
+.maini{
+    display: inline-block;
+}
+footer{
+    padding: 244px;
+    background-color: black;
+    height: 354px;
+}
+.pfp2{
+    margin-left: 690px;
+    font-size: 22px;
+}
+.img2 img{
+    margin-left: 633px;
+    width: 150px;
+    height: 150px;
+    margin-top: -160px;
+}
+.txt1{
+    color: #FFFFFF;
+    font-size: 17px;
+    text-align: center;
+    margin-top: 10px;
+}
+.rights{
+    text-align: center;
+    font-size: 18px;
+    margin-top: 95px;
+}
+.social{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 0;
+    top: 290px;
+}
+.social div{
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.social .facebook{
+    background-image: url(../img/fb.png);
+}
+.social .instagram{
+    background-image: url(../img/insta.png);
+}
+.social .facebook:hover{
+    background-image: url(../img/facebook.png);
+}
+.social .instagram:hover{
+    background-image: url(../img/insta2.png);
+}
+.like{
+    background-image: url(../img/like\ 1.png);
+    width: 50px;
+    height: 50px;
+    margin-left: 226px;
+}
+.like:hover{
+    background-image: url(../img/like\ 2.png);
+}
+
+.playlisto h2{
+    padding-bottom: 20px;
+}
+.playlisto ul{
+    margin-left: 77px;
+    margin-top: 6px;
+}
+.playlisto a{
+    color: black;
+    font-size: 18px;
+}
+.playlistt{
+    margin-left: 560px;
+    margin-top: -400px;
+}
+.playlistt h2{
+    padding-bottom: 20px;
+}
+.playlistt ul{
+    margin-left: 77px;
+    margin-top: 6px;
+}
+.playlistt a{
+    color: black;
+    font-size: 18px;
+}
+.img3{
+    margin-left: 700px;
+}
+.img3 img{
+    width: 65px;
+    height: 65px;
+    margin-top: 60px;
+}
+.playlistt1{
+    display: inline-block;
+    margin-left: 80px;
+    margin-top: 100px;
+    position: absolute;
+}
+.playlistt1 h2{
+    padding-bottom: 20px;
+}
+.playlistt1 a{
+    color: black;
+    font-size: 18px;
+}
+.playlistt2{
+    display: inline-block;
+    width: 280px;
+    height: 361px;
+    left: 424px;
+    top: 720px;
+    position: absolute;
+}
+.playlistt2 h2{
+    padding-bottom: 20px;
+}
+.playlistt2 a{
+    color: black;
+    font-size: 18px;
+}
+.playlistt3{
+    display: inline-block;
+    width: 280px;
+    height: 361px;
+    left: 748px;
+    top: 717px;
+    position: absolute;
+}
+.playlistt3 h2{
+    padding-bottom: 20px;
+}
+.playlistt3 a{
+    color: black;
+    font-size: 18px;
+}
+.playlistt4{
+    display: inline-block;
+    width: 280px;
+    height: 361px;
+    left: 1072px;
+    top: 716px;
+    position: absolute;
+}
+.playlistt4 h2{
+    padding-bottom: 20px;
+}
+.playlistt4 a{
+    color: black;
+    font-size: 18px;
+}
+.img4{
+    margin-left: 700px;
+}
+.img4 img{
+    width: 65px;
+    height: 65px;
+    margin-top: 600px;
+}
+.thanks{
+    width: 343px;
+    height: 42px;
+    margin-left: 690px;
+    margin-top: 100px;
+}
+.thanks p{
+    font-size: 36px;
+}
